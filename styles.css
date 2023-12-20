@@ -302,3 +302,47 @@ section {
         width: 100%;
     }
 }
+
+/* This is for the skills html */
+.custom-body-class {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.main-heading {
+    text-align: center;
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.skill-category {
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.skill-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-list li {
+    margin: 5px 0; /* Adjust margin as needed */
+    padding: 5px;
+    background-color: #eee; /* Change background color as needed */
+    border-radius: 3px;
+}
+
+strong {
+    display: block;
+    margin-bottom: 10px;
+}
