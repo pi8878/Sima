@@ -1,29 +1,98 @@
-<!-- This is my about section for my page -->
-<!-- about.html -->
+<!-- This is my about page -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="styles.css">
     <title>About Me</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background: url('../Assets/simba.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+        }
+
+        .about-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 20px auto;
+        }
+
+        .interests {
+            margin-top: 30px;
+        }
+
+        .interests i {
+            font-size: 24px;
+            margin: 0 10px;
+            color: #007BFF;
+        }
+
+        .quote {
+            margin-top: 30px;
+            text-align: center;
+            font-style: italic;
+            color: #6c757d;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Your about content goes here -->
+
     <h1>About Me</h1>
-    <p>
-        My name is Simangolwa Lifwatila college graduate from St. Cloud State University with Computer Science degree.
-    </p>
 
-    <script src="script.js"></script>
+    <div class="about-container">
+
+        <img src="../Assets/sima.jpg" alt="Your Profile Picture" class="profile-pic">
+
+        <p>
+            Hello there! I'm Simangolwa Lifwatila, a passionate individual on a
+            journey of self-discovery through coding and creativity. 
+            I enjoy turning ideas into reality and continuously learning new things.
+        </p>
+
+        <div class="interests">
+            <i class="fas fa-paint-brush"></i>
+            <i class="fas fa-code"></i>
+            <i class="fas fa-music"></i>
+            <i class="fas fa-hiking"></i>
+            <i class="fas fa-chess"></i>
+        </div>
+
+        <p>
+            My interests include art, coding, music, hiking, and diving into a good
+            chess puzzle. I believe in the beauty of simplicity and the power of continuous improvement.
+        </p>
+
+        <div class="quote">
+            <p>"Embrace the glorious mess that you are." - Elizabeth Gilbert</p>
+        </div>
+
+    </div>
+
 </body>
+
 </html>
-
-
-
-
-
